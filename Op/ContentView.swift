@@ -13,15 +13,15 @@ struct ContentView: View {
                     .tabItem {
                         Label("챔피언", systemImage:  "brain.head.profile")
                     }
-                Text("이스포츠")
+                ESportsView()
                     .tabItem {
                         Label("이스포츠", systemImage:  "trophy.fill")
                     }
-                Text("커뮤니티")
+               CommunityView()
                     .tabItem {
                         Label("커뮤니티", systemImage:  "command.square")
                     }
-                Text("설정")
+               OptionView()
                     .tabItem {
                         Label("설정", systemImage: "gearshape.fill")
                     }
