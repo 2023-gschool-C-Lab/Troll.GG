@@ -5,7 +5,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            TextField("소환사 검색", text: $text)
+            TextField("소환사 검색!", text: $text)
             Spacer()
         }
         .padding()
