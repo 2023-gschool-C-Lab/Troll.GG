@@ -16,7 +16,6 @@
 		4095B5492A414CDB00751925 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B5482A414CDB00751925 /* CommunityView.swift */; };
 		4095B54B2A414D0400751925 /* ESportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B54A2A414D0400751925 /* ESportsView.swift */; };
 		4095B54D2A414D1300751925 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B54C2A414D1300751925 /* OptionView.swift */; };
-		4095B54F2A429A0900751925 /* PandaCollectionFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B54E2A429A0900751925 /* PandaCollectionFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		4095B5482A414CDB00751925 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		4095B54A2A414D0400751925 /* ESportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESportsView.swift; sourceTree = "<group>"; };
 		4095B54C2A414D1300751925 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
-		4095B54E2A429A0900751925 /* PandaCollectionFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaCollectionFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				4095B51C2A3FE2CC00751925 /* ContentView.swift */,
 				4095B51E2A3FE2CD00751925 /* Assets.xcassets */,
 				4095B5202A3FE2CD00751925 /* Preview Content */,
-				4095B54E2A429A0900751925 /* PandaCollectionFetcher.swift */,
 			);
 			path = Op;
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4095B54F2A429A0900751925 /* PandaCollectionFetcher.swift in Sources */,
 				4095B51D2A3FE2CC00751925 /* ContentView.swift in Sources */,
 				4095B52D2A3FE93100751925 /* ChampionView.swift in Sources */,
 				4095B5492A414CDB00751925 /* CommunityView.swift in Sources */,
