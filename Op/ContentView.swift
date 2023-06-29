@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var selectedTag = 0
+
     var body: some View {
         
         NavigationView {
@@ -21,12 +22,12 @@ struct ContentView: View {
                         Label("이스포츠", systemImage:  "trophy.fill")
                     }
                     .tag(2)
-               CommunityView()
+                CommunityView()
                     .tabItem {
                         Label("커뮤니티", systemImage:  "command.square")
                     }
                     .tag(3)
-               OptionView()
+                OptionView()
                     .tabItem {
                         Label("설정", systemImage: "gearshape.fill")
                     }
@@ -56,12 +57,12 @@ struct ContentView: View {
             }
         }
     }
-    
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+}
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 
