@@ -2,9 +2,10 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject var summonerFecther: SummonerFetcher
+    @EnvironmentObject var tierFetcher: TierFetcher
     @State var name: String = ""
-    @State var account: Account = .sample
-
+    @State var soloRankTier: Tier = Tier.sample[0]
+    
     var body: some View {
         VStack(spacing: 0) {
             
@@ -17,12 +18,14 @@ struct HomeView: View {
                 Button {
                     Task {
                         do {
-                            account = try await summonerFecther.fetchSummoner(name: name)
+                            try await summonerFecther.fetchSummoner(name: name)
+                            try await tierFetcher.fetchTier(accountId: summonerFecther.account.id)
+                            soloRankTier = tierFetcher.getSoloRankTier()
                         } catch {
                             print("ERROR: \(error)")
                         }
                     }
-
+                    
                     
                 } label: {
                     Text("제출")
@@ -35,27 +38,27 @@ struct HomeView: View {
             }
             
             
-//            TextField("", text: $text)
-//                .textFieldStyle(.plain)
-//                .frame(height: 70)
-//                .background {
-//                    RoundedRectangle(cornerRadius: 22)
-//                        .stroke(.gray)
-//                }
-//                .overlay(
-//                    HStack {
-//                        Image(systemName: "magnifyingglass")
-//                            .resizable()
-//                            .foregroundColor(.gray)
-//                            .frame(width: 30, height: 30)
-//                            .border(.red)
-//                            .padding(.leading, 25)
-//                        Text("소환사 검색")
-//                            .foregroundColor(.gray)
-//                            .padding(.leading, 4)
-//                        Spacer()
-//                    }
-//                )
+            //            TextField("", text: $text)
+            //                .textFieldStyle(.plain)
+            //                .frame(height: 70)
+            //                .background {
+            //                    RoundedRectangle(cornerRadius: 22)
+            //                        .stroke(.gray)
+            //                }
+            //                .overlay(
+            //                    HStack {
+            //                        Image(systemName: "magnifyingglass")
+            //                            .resizable()
+            //                            .foregroundColor(.gray)
+            //                            .frame(width: 30, height: 30)
+            //                            .border(.red)
+            //                            .padding(.leading, 25)
+            //                        Text("소환사 검색")
+            //                            .foregroundColor(.gray)
+            //                            .padding(.leading, 4)
+            //                        Spacer()
+            //                    }
+            //                )
             Spacer()
                 .frame(height: 70)
             HStack {
@@ -65,12 +68,12 @@ struct HomeView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 100)) // Adjust the corner radius as needed
                     .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.gray, lineWidth: 2))
                     .padding(.leading, 4)// Adjust the corner radius as needed
-               
+                
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(account.name)
+                    Text(summonerFecther.account.name)
                         .font(.title)
                         .foregroundColor(.black)
-                    Text("Challanger  | 520LP | Lv.\(account.summonerLevel)")
+                    Text("\(soloRankTier.tier) \(soloRankTier.rank)  | \(soloRankTier.leaguePoints)LP | Lv.\(summonerFecther.account.summonerLevel)")
                 }
                 .padding(.leading, 16)
                 .padding(.bottom, 50)
@@ -88,19 +91,19 @@ struct HomeView: View {
                         
                         VStack {
                             HStack {
-                                    Text("9승 11패")
-                                        .font(.system(size: 20, weight: .bold))
-                                    Text("승률")
+                                Text("9승 11패")
+                                    .font(.system(size: 20, weight: .bold))
+                                Text("승률")
                                     .font(.system(size: 20))
-                                    Text("45%")
+                                Text("45%")
                                     .font(.system(size: 20))
-                                        .foregroundColor(.red)
+                                    .foregroundColor(.red)
                                 
-                                    Text("KDA")
-                                    Text("1:5:1")
-                                        .font(.system(size: 20, weight: .bold))
-                                }
-                                .padding(.top, 10)
+                                Text("KDA")
+                                Text("1:5:1")
+                                    .font(.system(size: 20, weight: .bold))
+                            }
+                            .padding(.top, 10)
                             
                             HStack(spacing: 25) {
                                 HStack {
@@ -108,7 +111,7 @@ struct HomeView: View {
                                         .frame(width: 50, height: 50)
                                         .padding(.top, 10)
                                     Text("66%")
-                                      
+                                    
                                         .font(.system(size: 16, weight: .bold))
                                         .padding(.top, 10)
                                 }
@@ -118,7 +121,7 @@ struct HomeView: View {
                                         .frame(width: 50, height: 50)
                                         .padding(.top, 10)
                                     Text("77%")
-                                      
+                                    
                                         .font(.system(size: 16, weight: .bold))
                                         .padding(.top, 10)
                                 }
@@ -138,27 +141,39 @@ struct HomeView: View {
                     )
             }
             
-            Button(action: {
-                                // Add action for "자세히 보기" button
-                            }) {
-                                Text("자세히 보기")
-                                    .font(.system(size: 16))
-                                    .foregroundColor(.blue)
-                                    .padding(.vertical, 10)
-                                    .padding(.horizontal, 20)
-                                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.gray.opacity(0.2)))
-                            }
-       
             Spacer()
+            
+                .frame(height: 8)
+            
+            Button {
+                print("자세히 보기 버튼 눌림")
+            } label: {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 4)
+                        .fill(.blue)
+                        .frame(height: 70)
+                        .frame(width: 370)
+                    Text("자세히 보기")
+                        .foregroundColor(.white)
+                        .fontWeight(.semibold)
+                }
+                
+            }
+            .padding(.horizontal, 16)
+            
+            
+            
+            
+            
         }
-        
-        .padding()
     }
 }
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
             .environmentObject(SummonerFetcher())
+            .environmentObject(TierFetcher())
     }
 }

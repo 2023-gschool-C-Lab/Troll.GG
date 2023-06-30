@@ -20,7 +20,7 @@ extension Account {
         id: "",
         accountId: "",
         puuid: "",
-        name: "",
+        name: "[       ]",
         revisionDate: 0,
         summonerLevel: 0,
         profileIconId: 0)
