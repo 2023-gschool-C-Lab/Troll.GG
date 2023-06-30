@@ -26,6 +26,8 @@
 		40D444FD2A4D0E4D00028539 /* TierApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444FC2A4D0E4D00028539 /* TierApi.swift */; };
 		40D444FF2A4D0EDE00028539 /* Tier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444FE2A4D0EDE00028539 /* Tier.swift */; };
 		40D445012A4E5CF100028539 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445002A4E5CF100028539 /* Constant.swift */; };
+		40D445072A4E7B2800028539 /* NowGaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445062A4E7B2800028539 /* NowGaming.swift */; };
+		40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445082A4E7B3800028539 /* NowGamingApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		40D444FC2A4D0E4D00028539 /* TierApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TierApi.swift; sourceTree = "<group>"; };
 		40D444FE2A4D0EDE00028539 /* Tier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tier.swift; sourceTree = "<group>"; };
 		40D445002A4E5CF100028539 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		40D445062A4E7B2800028539 /* NowGaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGaming.swift; sourceTree = "<group>"; };
+		40D445082A4E7B3800028539 /* NowGamingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGamingApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				40D444FB2A4BDB4900028539 /* Model */,
 				40D444FC2A4D0E4D00028539 /* TierApi.swift */,
 				40D444F32A4A6C9600028539 /* RiotApi.swift */,
+				40D445082A4E7B3800028539 /* NowGamingApi.swift */,
 				40D444EF2A49374900028539 /* AccountRow.swift */,
 				40D444ED2A4935CA00028539 /* ModelData.swift */,
 				40D444F52A4A77F600028539 /* Gay.json */,
@@ -116,6 +121,7 @@
 				40D444FE2A4D0EDE00028539 /* Tier.swift */,
 				40D444F12A4937E500028539 /* Account.swift */,
 				40D445002A4E5CF100028539 /* Constant.swift */,
+				40D445062A4E7B2800028539 /* NowGaming.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				4095B51B2A3FE2CC00751925 /* OpApp.swift in Sources */,
 				40D444FF2A4D0EDE00028539 /* Tier.swift in Sources */,
 				40D444F42A4A6C9600028539 /* RiotApi.swift in Sources */,
+				40D445072A4E7B2800028539 /* NowGaming.swift in Sources */,
+				40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */,
 				4095B54D2A414D1300751925 /* OptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
