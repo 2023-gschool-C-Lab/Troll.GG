@@ -8,5 +8,5 @@
 import Foundation
 
 struct Literal {
-    static let apiKey = "RGAPI-a7b48878-5266-462e-ac04-edbcd8fc1aa7"
+    static let apiKey = "RGAPI-f82a61dd-8816-40fa-8260-239604bd1f9f"
 }

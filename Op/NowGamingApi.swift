@@ -8,8 +8,8 @@ enum FetError: Error {
 class GamingFetcher: ObservableObject {
     @Published var gaming: Gaming = .sample
     
-    func fetchGaming(name: String) async throws {
-        guard let url = URL(string: "https://kr.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/\(name)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") else {
+    func fetchGaming(accountId: String) async throws {
+        guard let url = URL(string: "https://kr.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/\(accountId)?api_key=\(Literal.apiKey)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") else {
             throw FetchError.invalidURL
         }
         let (data, _) = try await URLSession.shared.data(from: url)

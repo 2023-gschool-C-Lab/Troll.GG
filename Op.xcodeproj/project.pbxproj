@@ -28,6 +28,10 @@
 		40D445012A4E5CF100028539 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445002A4E5CF100028539 /* Constant.swift */; };
 		40D445072A4E7B2800028539 /* NowGaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445062A4E7B2800028539 /* NowGaming.swift */; };
 		40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445082A4E7B3800028539 /* NowGamingApi.swift */; };
+		40D4450B2A52608500028539 /* MatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450A2A52608500028539 /* MatchApi.swift */; };
+		40D4450D2A52609100028539 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450C2A52609100028539 /* Match.swift */; };
+		40D4450F2A5260C100028539 /* EachMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450E2A5260C100028539 /* EachMatch.swift */; };
+		40D445112A5260D100028539 /* EachMatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445102A5260D100028539 /* EachMatchApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		40D445002A4E5CF100028539 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		40D445062A4E7B2800028539 /* NowGaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGaming.swift; sourceTree = "<group>"; };
 		40D445082A4E7B3800028539 /* NowGamingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGamingApi.swift; sourceTree = "<group>"; };
+		40D4450A2A52608500028539 /* MatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchApi.swift; sourceTree = "<group>"; };
+		40D4450C2A52609100028539 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		40D4450E2A5260C100028539 /* EachMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatch.swift; sourceTree = "<group>"; };
+		40D445102A5260D100028539 /* EachMatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatchApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,8 @@
 			children = (
 				40D444FB2A4BDB4900028539 /* Model */,
 				40D444FC2A4D0E4D00028539 /* TierApi.swift */,
+				40D445102A5260D100028539 /* EachMatchApi.swift */,
+				40D4450A2A52608500028539 /* MatchApi.swift */,
 				40D444F32A4A6C9600028539 /* RiotApi.swift */,
 				40D445082A4E7B3800028539 /* NowGamingApi.swift */,
 				40D444EF2A49374900028539 /* AccountRow.swift */,
@@ -118,6 +128,8 @@
 		40D444FB2A4BDB4900028539 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				40D4450E2A5260C100028539 /* EachMatch.swift */,
+				40D4450C2A52609100028539 /* Match.swift */,
 				40D444FE2A4D0EDE00028539 /* Tier.swift */,
 				40D444F12A4937E500028539 /* Account.swift */,
 				40D445002A4E5CF100028539 /* Constant.swift */,
@@ -210,11 +222,15 @@
 				4095B54B2A414D0400751925 /* ESportsView.swift in Sources */,
 				40D444FD2A4D0E4D00028539 /* TierApi.swift in Sources */,
 				4095B51B2A3FE2CC00751925 /* OpApp.swift in Sources */,
+				40D4450D2A52609100028539 /* Match.swift in Sources */,
 				40D444FF2A4D0EDE00028539 /* Tier.swift in Sources */,
+				40D445112A5260D100028539 /* EachMatchApi.swift in Sources */,
 				40D444F42A4A6C9600028539 /* RiotApi.swift in Sources */,
 				40D445072A4E7B2800028539 /* NowGaming.swift in Sources */,
 				40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */,
+				40D4450F2A5260C100028539 /* EachMatch.swift in Sources */,
 				4095B54D2A414D1300751925 /* OptionView.swift in Sources */,
+				40D4450B2A52608500028539 /* MatchApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
