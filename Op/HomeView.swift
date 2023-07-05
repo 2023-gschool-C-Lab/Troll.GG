@@ -3,6 +3,8 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject var summonerFecther: SummonerFetcher
     @EnvironmentObject var tierFetcher: TierFetcher
+    @EnvironmentObject var matchFetcher: MatchFetcher
+    @EnvironmentObject var eachMatchFetcher: EachMatchFetcher
     @State var name: String = ""
     @State var soloRankTier: Tier = Tier.sample[0]
     
@@ -21,6 +23,13 @@ struct HomeView: View {
                             try await summonerFecther.fetchSummoner(name: name)
                             try await tierFetcher.fetchTier(accountId: summonerFecther.account.id)
                             soloRankTier = tierFetcher.getSoloRankTier()
+                            
+                            try await matchFetcher.fetchMatch(puuid: summonerFecther.account.puuid)
+                            
+                            for matchId in matchFetcher.match {
+                                try await eachMatchFetcher.fetchEachMatch(matchId: matchId)
+                            }
+                            
                         } catch {
                             print("ERROR: \(error)")
                         }

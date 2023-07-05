@@ -32,6 +32,7 @@
 		40D4450D2A52609100028539 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450C2A52609100028539 /* Match.swift */; };
 		40D4450F2A5260C100028539 /* EachMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450E2A5260C100028539 /* EachMatch.swift */; };
 		40D445112A5260D100028539 /* EachMatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445102A5260D100028539 /* EachMatchApi.swift */; };
+		40D445132A53B24C00028539 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445122A53B24C00028539 /* MatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		40D4450C2A52609100028539 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		40D4450E2A5260C100028539 /* EachMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatch.swift; sourceTree = "<group>"; };
 		40D445102A5260D100028539 /* EachMatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatchApi.swift; sourceTree = "<group>"; };
+		40D445122A53B24C00028539 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4095B55B2A491E2500751925 /* Account.json */,
 				4095B5592A491D9700751925 /* Match.json */,
 				4095B52A2A3FE74B00751925 /* HomeView.swift */,
+				40D445122A53B24C00028539 /* MatchView.swift */,
 				4095B52C2A3FE93100751925 /* ChampionView.swift */,
 				4095B54A2A414D0400751925 /* ESportsView.swift */,
 				4095B5482A414CDB00751925 /* CommunityView.swift */,
@@ -215,6 +218,7 @@
 				40D444F22A4937E500028539 /* Account.swift in Sources */,
 				4095B51D2A3FE2CC00751925 /* ContentView.swift in Sources */,
 				4095B52D2A3FE93100751925 /* ChampionView.swift in Sources */,
+				40D445132A53B24C00028539 /* MatchView.swift in Sources */,
 				4095B5492A414CDB00751925 /* CommunityView.swift in Sources */,
 				40D444EE2A4935CA00028539 /* ModelData.swift in Sources */,
 				4095B52B2A3FE74B00751925 /* HomeView.swift in Sources */,
