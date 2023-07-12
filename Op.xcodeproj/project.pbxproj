@@ -11,9 +11,28 @@
 		4095B51D2A3FE2CC00751925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B51C2A3FE2CC00751925 /* ContentView.swift */; };
 		4095B51F2A3FE2CD00751925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4095B51E2A3FE2CD00751925 /* Assets.xcassets */; };
 		4095B5222A3FE2CD00751925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4095B5212A3FE2CD00751925 /* Preview Assets.xcassets */; };
-		4095B5292A3FE2ED00751925 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B5282A3FE2ED00751925 /* Bar.swift */; };
 		4095B52B2A3FE74B00751925 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B52A2A3FE74B00751925 /* HomeView.swift */; };
 		4095B52D2A3FE93100751925 /* ChampionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B52C2A3FE93100751925 /* ChampionView.swift */; };
+		4095B5492A414CDB00751925 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B5482A414CDB00751925 /* CommunityView.swift */; };
+		4095B54B2A414D0400751925 /* ESportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B54A2A414D0400751925 /* ESportsView.swift */; };
+		4095B54D2A414D1300751925 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095B54C2A414D1300751925 /* OptionView.swift */; };
+		4095B55A2A491D9700751925 /* Match.json in Resources */ = {isa = PBXBuildFile; fileRef = 4095B5592A491D9700751925 /* Match.json */; };
+		4095B55C2A491E2500751925 /* Account.json in Resources */ = {isa = PBXBuildFile; fileRef = 4095B55B2A491E2500751925 /* Account.json */; };
+		40D444EE2A4935CA00028539 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444ED2A4935CA00028539 /* ModelData.swift */; };
+		40D444F02A49374900028539 /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444EF2A49374900028539 /* AccountRow.swift */; };
+		40D444F22A4937E500028539 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444F12A4937E500028539 /* Account.swift */; };
+		40D444F42A4A6C9600028539 /* RiotApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444F32A4A6C9600028539 /* RiotApi.swift */; };
+		40D444F62A4A77F600028539 /* Gay.json in Resources */ = {isa = PBXBuildFile; fileRef = 40D444F52A4A77F600028539 /* Gay.json */; };
+		40D444FD2A4D0E4D00028539 /* TierApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444FC2A4D0E4D00028539 /* TierApi.swift */; };
+		40D444FF2A4D0EDE00028539 /* Tier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D444FE2A4D0EDE00028539 /* Tier.swift */; };
+		40D445012A4E5CF100028539 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445002A4E5CF100028539 /* Constant.swift */; };
+		40D445072A4E7B2800028539 /* NowGaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445062A4E7B2800028539 /* NowGaming.swift */; };
+		40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445082A4E7B3800028539 /* NowGamingApi.swift */; };
+		40D4450B2A52608500028539 /* MatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450A2A52608500028539 /* MatchApi.swift */; };
+		40D4450D2A52609100028539 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450C2A52609100028539 /* Match.swift */; };
+		40D4450F2A5260C100028539 /* EachMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4450E2A5260C100028539 /* EachMatch.swift */; };
+		40D445112A5260D100028539 /* EachMatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445102A5260D100028539 /* EachMatchApi.swift */; };
+		40D445132A53B24C00028539 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D445122A53B24C00028539 /* MatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +41,28 @@
 		4095B51C2A3FE2CC00751925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4095B51E2A3FE2CD00751925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4095B5212A3FE2CD00751925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4095B5282A3FE2ED00751925 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		4095B52A2A3FE74B00751925 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4095B52C2A3FE93100751925 /* ChampionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionView.swift; sourceTree = "<group>"; };
+		4095B5482A414CDB00751925 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		4095B54A2A414D0400751925 /* ESportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESportsView.swift; sourceTree = "<group>"; };
+		4095B54C2A414D1300751925 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		4095B5592A491D9700751925 /* Match.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Match.json; sourceTree = "<group>"; };
+		4095B55B2A491E2500751925 /* Account.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Account.json; sourceTree = "<group>"; };
+		40D444ED2A4935CA00028539 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		40D444EF2A49374900028539 /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRow.swift; sourceTree = "<group>"; };
+		40D444F12A4937E500028539 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		40D444F32A4A6C9600028539 /* RiotApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotApi.swift; sourceTree = "<group>"; };
+		40D444F52A4A77F600028539 /* Gay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Gay.json; sourceTree = "<group>"; };
+		40D444FC2A4D0E4D00028539 /* TierApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TierApi.swift; sourceTree = "<group>"; };
+		40D444FE2A4D0EDE00028539 /* Tier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tier.swift; sourceTree = "<group>"; };
+		40D445002A4E5CF100028539 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		40D445062A4E7B2800028539 /* NowGaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGaming.swift; sourceTree = "<group>"; };
+		40D445082A4E7B3800028539 /* NowGamingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowGamingApi.swift; sourceTree = "<group>"; };
+		40D4450A2A52608500028539 /* MatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchApi.swift; sourceTree = "<group>"; };
+		40D4450C2A52609100028539 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		40D4450E2A5260C100028539 /* EachMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatch.swift; sourceTree = "<group>"; };
+		40D445102A5260D100028539 /* EachMatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMatchApi.swift; sourceTree = "<group>"; };
+		40D445122A53B24C00028539 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +95,23 @@
 		4095B5192A3FE2CC00751925 /* Op */ = {
 			isa = PBXGroup;
 			children = (
+				40D444FB2A4BDB4900028539 /* Model */,
+				40D444FC2A4D0E4D00028539 /* TierApi.swift */,
+				40D445102A5260D100028539 /* EachMatchApi.swift */,
+				40D4450A2A52608500028539 /* MatchApi.swift */,
+				40D444F32A4A6C9600028539 /* RiotApi.swift */,
+				40D445082A4E7B3800028539 /* NowGamingApi.swift */,
+				40D444EF2A49374900028539 /* AccountRow.swift */,
+				40D444ED2A4935CA00028539 /* ModelData.swift */,
+				40D444F52A4A77F600028539 /* Gay.json */,
+				4095B55B2A491E2500751925 /* Account.json */,
+				4095B5592A491D9700751925 /* Match.json */,
 				4095B52A2A3FE74B00751925 /* HomeView.swift */,
+				40D445122A53B24C00028539 /* MatchView.swift */,
 				4095B52C2A3FE93100751925 /* ChampionView.swift */,
-				4095B5282A3FE2ED00751925 /* Bar.swift */,
+				4095B54A2A414D0400751925 /* ESportsView.swift */,
+				4095B5482A414CDB00751925 /* CommunityView.swift */,
+				4095B54C2A414D1300751925 /* OptionView.swift */,
 				4095B51A2A3FE2CC00751925 /* OpApp.swift */,
 				4095B51C2A3FE2CC00751925 /* ContentView.swift */,
 				4095B51E2A3FE2CD00751925 /* Assets.xcassets */,
@@ -74,6 +126,19 @@
 				4095B5212A3FE2CD00751925 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40D444FB2A4BDB4900028539 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40D4450E2A5260C100028539 /* EachMatch.swift */,
+				40D4450C2A52609100028539 /* Match.swift */,
+				40D444FE2A4D0EDE00028539 /* Tier.swift */,
+				40D444F12A4937E500028539 /* Account.swift */,
+				40D445002A4E5CF100028539 /* Constant.swift */,
+				40D445062A4E7B2800028539 /* NowGaming.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4095B5222A3FE2CD00751925 /* Preview Assets.xcassets in Resources */,
+				4095B55C2A491E2500751925 /* Account.json in Resources */,
+				4095B55A2A491D9700751925 /* Match.json in Resources */,
 				4095B51F2A3FE2CD00751925 /* Assets.xcassets in Resources */,
+				40D444F62A4A77F600028539 /* Gay.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +214,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D444F02A49374900028539 /* AccountRow.swift in Sources */,
+				40D444F22A4937E500028539 /* Account.swift in Sources */,
 				4095B51D2A3FE2CC00751925 /* ContentView.swift in Sources */,
 				4095B52D2A3FE93100751925 /* ChampionView.swift in Sources */,
+				40D445132A53B24C00028539 /* MatchView.swift in Sources */,
+				4095B5492A414CDB00751925 /* CommunityView.swift in Sources */,
+				40D444EE2A4935CA00028539 /* ModelData.swift in Sources */,
 				4095B52B2A3FE74B00751925 /* HomeView.swift in Sources */,
-				4095B5292A3FE2ED00751925 /* Bar.swift in Sources */,
+				40D445012A4E5CF100028539 /* Constant.swift in Sources */,
+				4095B54B2A414D0400751925 /* ESportsView.swift in Sources */,
+				40D444FD2A4D0E4D00028539 /* TierApi.swift in Sources */,
 				4095B51B2A3FE2CC00751925 /* OpApp.swift in Sources */,
+				40D4450D2A52609100028539 /* Match.swift in Sources */,
+				40D444FF2A4D0EDE00028539 /* Tier.swift in Sources */,
+				40D445112A5260D100028539 /* EachMatchApi.swift in Sources */,
+				40D444F42A4A6C9600028539 /* RiotApi.swift in Sources */,
+				40D445072A4E7B2800028539 /* NowGaming.swift in Sources */,
+				40D445092A4E7B3800028539 /* NowGamingApi.swift in Sources */,
+				40D4450F2A5260C100028539 /* EachMatch.swift in Sources */,
+				4095B54D2A414D1300751925 /* OptionView.swift in Sources */,
+				40D4450B2A52608500028539 /* MatchApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
